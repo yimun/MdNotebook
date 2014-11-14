@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/myImages">
+        <file>images/document-new.png</file>
+        <file>images/document-open.png</file>
+        <file>images/document-save.png</file>
+        <file>images/document-save-as.png</file>
+        <file>images/editcopy.png</file>
+        <file>images/editcut.png</file>
+        <file>images/edit-find.png</file>
+        <file>images/editpaste.png</file>
+        <file>images/edit-undo.png</file>
+        <file>images/exit.png</file>
+        <file>images/gtk-close.png</file>
+        <file>images/help.png</file>
+        <file>images/textbold.png</file>
+        <file>images/textitalic.png</file>
+        <file>images/textunder.png</file>
+    </qresource>
+</RCC>

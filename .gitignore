@@ -3,6 +3,9 @@
 *.slo
 *.lo
 *.o
+*.obj
+*.pch
+*.pdb
 *.a
 *.la
 *.lai
