@@ -94,7 +94,7 @@ private:
     // 保存当前文件的路径
     QString curFile;
 
-    void updateStatus(QString &s);
+    void updateStatus(QString s);
 
     QList<INote> *listNotes;
 

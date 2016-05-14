@@ -27,13 +27,16 @@ SOURCES += highlighter.cpp \
            main.cpp \
            mainwindow.cpp \
            searchdialog.cpp \
-           debug/qrc_myResource.cpp \
+#           debug/qrc_myResource.cpp \
             Md2HtmlFormat.cpp \
     codeeditor.cpp
 RESOURCES += myResource.qrc
 
+QMAKE_CXXFLAGS += -std=c++0x
+
 PRECOMPILED_HEADER += stable.h
-INCLUDEPATH += D:/boost_1_56_0/boost_1_56_0/
+#INCLUDEPATH += D:/boost_1_56_0/boost_1_56_0/
 
-LIBS += -LD:/boost_1_56_0/boost_1_56_0/bin/vc12_x86/lib -llibboost_regex-vc120-mt-gd-1_56
-
+#LIBS += -LD:/boost_1_56_0/boost_1_56_0/bin/vc12_x86/lib -llibboost_regex-vc120-mt-gd-1_56
+LIBS += -L/usr/lib/ -lboost_filesystem -lboost_system -lboost_regex
+INCLUDEPATH += /usr/include

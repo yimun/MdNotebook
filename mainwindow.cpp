@@ -333,7 +333,7 @@ void MainWindow::closeEvent(QCloseEvent *event)
     autoSave();
 }
 
-void MainWindow::updateStatus(QString &s)
+void MainWindow::updateStatus(QString s)
 {
     ui->statusBar->showMessage(QTime::currentTime().toString()
                                + tr("  ")+ s);
